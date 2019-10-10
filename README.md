@@ -1,2 +1,13 @@
-# test-lightserver
-This is a test folder
+# Lightserver
+
+* JQuery
+
+* Bootstrap
+
+* Popper
+
+* Font Awesome
+
+* Bootstrap Social
+
+* Lite Server
