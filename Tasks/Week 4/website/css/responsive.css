@@ -1,0 +1,423 @@
+/*RESPONSIVE 1200*/ 
+
+media screen and (max-width: 1210px) {
+	
+  .navigation-bar {
+    height: 65px;
+    font-size: 14px;
+    margin-right: 6px;
+	width: 57.4%;
+  }
+  
+  .navigation-bar a{
+	  padding-right: 0px;
+  }
+  
+  .logo{
+	display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+  }
+  
+  .navigation-bar input[type=text]{
+	padding: 6px 0;
+	position: relative;
+    top: 18px;
+	text-align: center;
+  }
+  
+  .searchicon img{
+	width: 20px;
+    height: 20px;
+    position: relative;
+    left: 194px;
+    top: -3px;
+
+  }
+  
+  .slider span h2{
+	font-size: 40px;
+    line-height: 2.2;
+  }
+  
+  .slider span p{
+	font-size: 24px;
+  }
+  
+  .slider{
+	height: 400px;
+	background: black;
+  }
+  
+  .button-signup{
+	position: relative;
+    top: 80px;
+  }
+  
+  audio{
+	width: 240px;
+  }
+  
+  #subscribeBanner h2{
+	font-size: 35px;
+  }
+  
+  #subscribeBanner p{
+	font-size: 25px;
+  }
+  
+  .button-subscribe{
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spacer {
+    margin-bottom: 31%;
+  }
+  
+  #footerContactForm textarea{
+	width: 185px;
+  }
+  
+  .footerTiles p{
+	font-size: 14px;
+  }
+  
+  .center-footerTiles ul{
+	font-size: 14px;
+  }
+  
+  .footerTiles h4 {
+    font-size: 22px;
+  }
+  
+  #topPanelFixed{
+	height: 240px;
+  }
+  
+  #topPanelFixed p{
+	font-size: 40px;
+  }
+  
+  .instrumentalHeader li{
+	padding-right: 20px;
+    font-size: 12px;
+  }
+  
+  .songsIndexes{
+    width: 90%;
+    position: relative;
+    left: 6%;
+  }
+  
+  #songs-table th{
+    padding: 5px;
+  }
+  
+  .songsIndexes>table{
+	font-size: 12px;
+  }
+  
+  .formLiner-membership h2{
+	margin-top: 0px;
+    font-size: 24px;
+  }
+
+  .formLiner-membership p {
+    font-size: 16px;
+    background: #8080808a;
+  }
+
+  #container-login-form input, #container-register-form input {
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .membershipBackground{
+    height: 440px;
+
+  }
+
+  #container-login-form button, #container-register-form button{
+    padding: 12px 28px;
+    font-size: 12px;
+}
+
+  .registerButtonMem, .loginButtonMem{
+    padding: 12px 28px;
+    font-size: 12px;
+  }
+  
+  .side-banner{
+	height: 575px;
+  }
+  
+  .formLiner h2{
+	margin-top: 10px;
+    font-size: 22px;
+  }
+  
+.container input[type=text], textarea#subject{
+    font-size: 15px;
+    padding: 6px;
+	border: none;
+} 
+  .container input[type=submit]{
+    padding: 12px 26px;
+    font-size: 16px;
+  } 
+  
+  #contentDetails{
+	font-size: 16px;
+  }
+  
+  .careerAchievement, .collectionSongs{
+    margin: 2% 5% 3% 5%;
+  }
+  
+  .careerAchievement li, .collectionSongs li{
+	font-size: 12px;
+    line-height: 0.1;
+  }
+  
+  .collectionSongs p, .careerAchievement p{
+	font-size: 22px;
+  }
+  
+  #allSongsButton{
+	font-size: 12px;
+  }
+  
+  .extraParaReq p {
+    font-size: 13px;
+  }
+}
+
+/*RESPONSIVE 1085*/ 
+
+@media screen and (max-width: 1085px){
+	
+	
+  .navigation-bar {
+    height: 60px;
+	width: 53.9%;
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  
+  .logo{
+	display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .navigation-bar input[type=text]{
+	padding: 6px 0;
+	position: relative;
+    top: 18px;
+	text-align: center;
+  }
+  
+  .searchicon img{
+	width: 20px;
+    height: 20px;
+    position: relative;
+    left: 194px;
+    top: -3px;
+  }
+  
+  audio{
+	width: 208px;
+  }
+  
+  .instrumentalHeader li {
+    padding-right: 18px;
+    font-size: 10px;
+}
+}
+
+/*RESPONSIVE 1280*/ 
+
+@media  screen and (max-width: 1280px) {
+	audio{
+	width: 254px;
+	}
+	
+	
+	#popupPasses input, #popupPasses select, #submitTicketForm{
+    font-size: 12px;
+    padding: 13px;
+    border: 1px solid #ccc;
+	}
+	
+	#popupPasses input:hover, #popupPasses select:hover, #submitTicketForm:hover{
+    border: 2px solid #f33;
+	}
+	
+	#popupPasses h1{
+		font-size: 25px;
+	}
+	
+	#failureMessageTicket{
+	margin: 15px;
+    font-size: 15px;
+	}
+	
+	#successMessageTicket{
+	margin: 15px;
+    font-size: 15px;	
+	}
+	
+	.instrumentalHeader li{
+	padding-right: 20px;
+	font-size: 12px;
+	}
+	
+	span#headingInstruments{
+		padding: 10px;
+	}
+	
+	#topPanelFixed{
+		height: 280px;
+	}
+	
+	#topPanelFixed p{
+		font-size: 50px;
+	}
+	
+	#songs-table tr{
+		font-size: 12px;
+	}
+	
+	#songs-table th{
+		padding: 12px;
+	}
+	
+	#artistDetailsOne p, #artistDetailsTwo p, #artistDetailsThree p,
+	#artistDetailsFour p, #artistDetailsFive p, #artistDetailsSix p,
+	#artistDetailsSeven p, #artistDetailsEight p, #artistDetailsNine p,
+	#artistDetailsTen p, #artistDetailsEleven p, #signupPopupMusikpage p, ul{
+		line-height: 1.5;
+	}
+	
+	#artistDetailsOne a:hover, #artistDetailsTwo a:hover, #artistDetailsThree a:hover,
+	#artistDetailsFour a:hover, #artistDetailsFive a:hover, #artistDetailsSix a:hover,
+	#artistDetailsSeven a:hover, #artistDetailsEight a:hover, #artistDetailsNine a:hover,
+	#artistDetailsTen a:hover, #artistDetailsEleven a:hover{
+		text-decoration: none;
+	}
+	
+	#contentDetails{
+		font-size: 20px;
+	}
+	
+	#contentDetails p{
+		font-size: 18px;
+	}
+	
+	#allSongsButton{
+    font-size: 14px;
+    padding: 14px;
+	}
+	
+	.careerAchievement, .collectionSongs {
+	margin: 5% 5% 5% 5%;
+    font-size: 22px;
+	}
+	
+	.careerAchievement li, .collectionSongs li{
+	font-size: 14px;
+	}
+	
+	.extraParaReq p{
+	font-size: 12px;
+	}
+	
+	#footerContactForm textarea {
+	resize: none;
+	width: 185px;
+	}
+	
+	span#hiddenResponsive{
+	display: none;
+	}
+	
+	.verticalLine{
+	height: 590px;
+	}
+	
+	.text{
+	font-size: 14px;
+	padding: 10px 25px;
+	}
+	
+	.navigation-bar{
+	font-size: 18px;
+	padding: 0 280px;
+	}
+	
+	.slider span p {
+    font-size: 24px;
+    line-height: 1;
+	}
+	
+	.slider {
+    height: 560px;
+	}
+	
+	.button-signup {
+    padding: 14px 28px;
+    font-size: 13px;
+    margin: 0px 0px;
+	}
+	
+	#newReleases h2, #yearBest h2, #topComposition h2 {
+    padding-top: 30px;
+    font-size: 40px;
+	}
+	
+	#subscribeBanner h2 {
+    font-size: 40px;
+	}
+	
+	#subscribeBanner p {
+    font-size: 25px;
+	}
+	
+	#subscribeInput {
+    padding: 13px 3px;
+    font-size: 14px;
+    left: 37%;
+	}
+	
+	.button-subscribe {
+    padding: 14px 16px;
+    font-size: 12px;
+    left: 20%;
+	}
+	
+	.spacer {
+    margin-bottom: 31%;
+	}
+	
+	#eventsHeadingMainCl{
+		margin-top: 25px;
+	}
+	
+	#failureMessageTicket {
+    margin: 0px;
+    font-size: 12px;
+	}
+		
+	#successMessageTicket {
+		margin: 0;
+		font-size: 10px;
+	}
+	
+}

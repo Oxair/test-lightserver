@@ -1,0 +1,217 @@
+/*-----------EVENTS--------------*/
+
+
+.containerEvents{
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+}
+
+#eventsHeadingMain h1{
+	text-align: center;
+	margin: 10% 20px 10px 80px;
+	margin-top: 20px;
+    color: black;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+#eventsHeadingMainCl h1{
+	text-align: center;
+	margin: 0 20px 10px 80px;
+    color: black;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+#eventsHeadingMain p{
+	font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    background: #80808045;
+}
+
+#eventsHeadingMainCl p{
+	font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    background: #80808045;
+}
+
+#tiles-events{
+	height: 500px;
+}
+
+.unavailableTile{
+	filter:opacity(30%);
+}
+
+#tilesEvents{
+	width: 16%;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 1% 10px;
+	position: relative;
+	left: 15%;
+}
+
+.tilesEventsOne{
+	background: url("../images/eventOne.png") top no-repeat;
+	width: auto;
+	height: 300px;
+}
+
+.tilesEventsTwo{
+	background: url("../images/eventTwo.png") top no-repeat;
+	width: auto;
+	height: 300px;
+}
+
+.tilesEventsThree{
+	background: url("../images/eventThree.png") top no-repeat;
+	width: auto;
+	height: 300px;
+}
+
+.tilesEventsFour{
+	background: url("../images/eventFour.png") top no-repeat;
+	width: auto;
+	height: 300px;
+}
+
+.contentTiles{
+	color: black;
+	margin-top: 320px;
+}
+
+.contentTiles li{
+	list-style: none;
+    font-size: 14px;
+	padding: 1px 0;
+	text-align: center
+}
+
+.contentTiles span {
+	font-weight: 700;
+    font-size: 16px;
+}
+
+.contentTiles span a {
+	text-decoration: none;
+	color: #650009;
+}
+
+.contentTiles span a:hover {
+	color: #f33;
+}
+
+span#navailablePass{
+	color: #ad6565;
+}
+
+
+/* MODAL BOX */
+
+#popupPasses{
+	background: #000000cc;
+	text-align: center;
+}
+
+#popupPasses h1 {
+  color: #650009;
+  margin: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  width: 23%;
+  position: relative;
+}
+
+.popup #closeButton {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.popup #closeButton:hover {
+  color: #f33;
+  font-size: 22px;
+}
+
+#popupPasses input, #popupPasses select, #submitTicketForm{
+	width: 60%;
+	padding: 20px 0;
+	font-size: 18px;
+	font-family: Calibri;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+#submitTicketForm{
+	opacity: 0.6;
+	background-color: #fc3334;
+	border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submitTicketForm:hover{
+	opacity: 1;
+}
+
+#popupPasses submitTicketForm:focus, #popupPasses select:focus, #popupPasses input:focus{
+	outline: 0;
+    border: 2px solid #f33;
+}
+
+#submitTicketForm:focus{
+	outline: 0;
+}
+
+#successMessageTicket{
+	color: green;
+	margin: 40px;
+	font-size: 20px;
+}
+
+#failureMessageTicket{
+	color: red;
+	margin: 40px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

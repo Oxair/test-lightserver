@@ -1,0 +1,208 @@
+body{
+	background: #cccccc12;
+}
+
+#topPanelFixed{
+	width: 100%;
+	height: 300px;
+	background: url("../images/event-managment-services.jpg");
+	background-position: center;
+	filter: grayscale(0.7);
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.instrumentalHeader{
+    text-align: center;
+    background: #000000e8;
+	text-transform: uppercase;
+}
+
+span#headingInstruments{
+	background: #fc3;
+	color: #000;
+	padding: 7px;	
+}
+
+.instrumentalHeader li{
+	color: white;
+	display: inline;
+	padding-right: 40px;
+	font-size: 16px;
+}
+
+.music-page-main{
+	background: #f1f1f1b8;
+}
+
+.musich1Main h1{
+	margin-top: 40px;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.musich1Main p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+#topPanelFixed p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 68px;
+    background: #d22d2e66;
+    padding: 10px;
+}
+
+.songsIndexes>table {
+	margin-top: 1%;
+	margin-bottom: 2%;
+    border-collapse: collapse;
+	width: 100%;
+	background: #cccccc26;
+}
+
+th, td {
+    text-align: center;
+    padding: 30px;
+	border: 1px solid #cccccc26;
+}
+
+td {
+    padding: 10px;
+} 
+
+th {
+    background-color: #b9b7b7;
+    color: #000000a8;
+    padding: 20px;
+	text-transform: uppercase;
+}
+
+.songsIndexes{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+
+#songs-table a{
+    color: #5612129c;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+#songs-table a:hover{
+	background: #4c4545e3;
+	color: white;
+}
+
+/* MODAL BOX */
+
+#buttonPopupSignup, #buttonPopupSignup a{
+	text-decoration: none;
+	margin-top: 20px;
+	background-color: #fc3334;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#buttonPopupSignup:hover {
+    opacity: 1;
+}
+
+#buttonPopupSignup:focus {
+    outline: 0;
+}
+
+#artistDetailsOne, #artistDetailsTwo, #artistDetailsThree, #artistDetailsFour,
+#artistDetailsFive, #artistDetailsSix, #artistDetailsSeven,
+#artistDetailsEight, #artistDetailsNine, #artistDetailsTen,
+#artistDetailsEleven, #signupPopupMusikpage
+{
+	background: #000000cc;
+	text-align: center;
+}
+
+#artistDetailsOne p, #artistDetailsTwo p, #artistDetailsThree p, #artistDetailsFour p,
+#artistDetailsFive p, #artistDetailsSix p, #artistDetailsSeven p,
+#artistDetailsEight p, #artistDetailsNine p, #artistDetailsTen p,
+#artistDetailsEleven p, #signupPopupMusikpage p,
+ul{
+  line-height: 2;
+}
+
+#artistDetailsOne a, #artistDetailsTwo a, #artistDetailsThree a, #artistDetailsFour a,
+#artistDetailsFive a, #artistDetailsSix a, #artistDetailsSeven a,
+#artistDetailsEight a, #artistDetailsNine a, #artistDetailsTen a,
+#artistDetailsEleven a
+{
+  color: #f33;
+} 
+
+#artistDetailsOne h1, #artistDetailsTwo h1, #artistDetailsThree h1, #artistDetailsFour h1,
+#artistDetailsFive h1, #artistDetailsSix h1, #artistDetailsSeven h1,
+#artistDetailsEight h1, #artistDetailsNine h1, #artistDetailsTen h1, #signupPopupMusikpage h1,
+#artistDetailsEleven h1
+{
+  color: #650009;
+  margin: 20px;
+}
+
+strong{
+	font-size: 18px;
+	color: #640009;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  width: 23%;
+  position: relative;
+}
+
+.popup #closeButton {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.popup #closeButton:hover {
+  color: #f33;
+  font-size: 22px;
+}
+
+
+
+
+

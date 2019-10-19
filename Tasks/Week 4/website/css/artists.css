@@ -1,0 +1,180 @@
+/*-----------ARTISTS--------------*/
+
+
+#contentOverlapped{
+	position: absolute;
+}
+
+#contentDetails{
+	width: 45%;
+	font-size: 30px;
+	margin: 5% 3% 0 5%;
+	float: left;
+	text-align: center;
+}
+
+#contentDetails p::selection{
+	background: #f33;
+	color: white;
+}
+
+#contentDetails p{
+	line-height: 2;
+}
+
+.verticalLine {
+    border-left: thick solid #e6e6e642;
+    height: 650px;
+    float: left;
+}
+
+#allSongsButton{
+	margin-top: 15px;
+	font-size: 16px;
+	background: #f33;
+	border: none;
+	padding: 18px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	opacity: 0.6;
+}
+
+#aboutMembersBand li{
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 1.5;
+	list-style-type: none;
+}
+
+#membersHeadings{
+    background: #989898;
+    color: #efececb8;
+    padding: 5px;
+    position: relative;
+    bottom: 12px;
+    font-size: 20px;
+}
+
+.extraParaReq p{
+	font-size: 18px;
+    width: 80%;
+    margin: 5%;
+    line-height: 1.5;
+}
+
+span#highlighter{
+    background: #0000006e;
+	color: white;
+}
+
+#allSongsButton a{
+	color: white;
+	text-decoration: none;
+}
+
+#recentArticlesLinked{
+	font-size: 16px;
+}
+
+#recentArticlesLinked a:hover{
+	opacity: 1;
+}
+
+#recentArticlesLinked a{
+	color: white;
+	opacity: 0.7;
+	filter: grayscale(0.7);
+	padding: 3px;
+	background: #f33;
+	text-decoration: none;
+}
+
+#allSongsButton:hover, #allSongsButton a:hover{
+    opacity: 1;
+	border: none;
+}
+
+.artistColors{
+	color: #f33;
+}
+
+.artistColors::selection{
+	background: #f33;
+	color: white;
+}
+
+.rightContentArtists{
+	float: left;
+	width: 46.5%;
+	height: 100%;
+}
+
+.wrapperArtists img{
+	width: 100%;
+	opacity: 0.3;
+	float: left;
+
+} 
+
+.careerAchievement{
+	margin: 8% 5% 5% 5%;
+	font-size: 30px;
+}
+
+.collectionSongs{
+	margin: 2% 5% 5% 5%;
+	font-size: 30px;
+}
+
+.careerAchievement p, .collectionSongs p{
+    border-bottom: 1px solid #cccccc1a;
+}
+
+.careerAchievement li, .collectionSongs li{
+	font-size: 16px;
+	margin: 15px;
+	line-height: 0.5;
+	list-style: none;
+}
+
+.careerAchievement li::selection, .careerAchievement ::selection,
+.collectionSongs li::selection, .collectionSongs ::selection{
+	background: #f33;
+	color: white;
+}	
+
+/*STAR RATING*/
+
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+#artistRatings{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}

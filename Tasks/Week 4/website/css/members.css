@@ -1,0 +1,117 @@
+/*-----------MEMBERS--------------*/
+
+body{
+	height: 100%;
+}
+
+.membershipBackground{
+	background: url("../images/signup-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	filter: grayscale(0.6);
+}
+
+.container-membership{
+    padding: 20px;
+	margin-bottom: 100px;
+}
+
+.formLiner-membership{
+	padding-top: 100px;
+}
+
+#container-login-form, #container-register-form {
+	margin:0 auto;
+	width:300px;
+}
+
+#container-login-form input, #container-register-form input  {
+	margin-bottom: 10px;
+	padding: 15px;
+	width: 100%;
+	font-size: 15px;
+}
+
+#container-login-form input:focus, #container-register-form input:focus  {
+    outline: 0;
+    border: 2px solid #f33;
+}
+
+container-login-form  label, #container-register-form label {
+	cursor:pointer;
+}
+
+#container-form-switch {
+	display:none;
+}
+
+#container-register-form {
+	display:none;
+}
+
+#container-form-switch:checked~#container-register-form {
+	display:block;
+}
+
+#container-form-switch:checked~#container-login-form {
+	display:none;
+}
+
+.formLiner-membership h2{
+	margin-top: 20px;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.formLiner-membership p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    background: #80808045;
+}
+
+
+#container-login-form  button, #container-register-form button {
+    background-color: #fc3334;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    cursor: pointer;
+    position: relative;
+	left: 20%;
+}
+
+#container-login-form  button:focus, #container-register-form button:focus {
+	outline: 0;
+}
+
+#container-login-form  button:hover, #container-register-form button:hover {
+	opacity: 0.9;
+	background: red;
+}
+
+.registerButtonMem, .loginButtonMem{
+    background-color: #252525;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.4;
+    cursor: pointer;
+    position: relative;
+    left: 20%;
+}
+
+#registerButtonMem:hover, #loginButtonMem:hover {
+	opacity: 1;
+    background-color: #000000;
+}
